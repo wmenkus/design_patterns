@@ -4,7 +4,7 @@
 
 package design_patterns.decorator;
 
-public class CharacterDecorator extends Character{
+public abstract class CharacterDecorator extends Character{
     protected Character character;
 
     /**
@@ -23,8 +23,6 @@ public class CharacterDecorator extends Character{
     /**
      * Empty method to be inherited, will replace lines of the sections ArrayList
      */
-    public void customize() {
-        //Empty
-    }
+    public abstract void customize();
 
 }
