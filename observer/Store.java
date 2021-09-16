@@ -1,4 +1,4 @@
-package design_patterns.observer;
+package observer;
 
 public class Store  implements Observer{
     private Subject subject;

@@ -1,7 +1,7 @@
 /**
  * @author Walker Menkus
  */
-package design_patterns.decorator;
+package decorator;
 
 import java.util.ArrayList;
 

@@ -2,7 +2,7 @@
  * @author Walker Menkus
  */
 
-package design_patterns.decorator;
+package decorator;
 
 public class PotatoeHead extends Character {
     

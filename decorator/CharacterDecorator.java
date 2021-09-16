@@ -2,7 +2,7 @@
  * @author Walker Menkus
  */
 
-package design_patterns.decorator;
+package decorator;
 
 public abstract class CharacterDecorator extends Character{
     protected Character character;

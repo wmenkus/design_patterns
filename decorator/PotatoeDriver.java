@@ -2,7 +2,7 @@
  * Runs the Potoatoe Head Program
  */
 
-package design_patterns.decorator;
+package decorator;
 
 public class PotatoeDriver {
 

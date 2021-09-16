@@ -5,7 +5,7 @@
  * functions, the "previous" gets left all over the place, it doesn't even implement Iterable.
  * Whatever, it works. For now.
  */
-package design_patterns.observer;
+package observer;
 
 public class GenLL <T>{
 	private class ListNode
