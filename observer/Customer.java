@@ -4,8 +4,6 @@ import java.util.ArrayList;
 
 public class Customer implements Observer{
     private Subject subject;
-    private String firstName;
-    private String lastName;
     private ArrayList<Book> wishList;
 
     /**
@@ -18,8 +16,6 @@ public class Customer implements Observer{
      */
     public Customer(Subject subject, String firstName, String lastName) {
         this.subject = subject;
-        this.firstName = firstName;
-        this.lastName = lastName;
         wishList = new ArrayList<Book>();
         this.subject.registerObserver(this);
     }
